@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#cabecalho {
+    background-color: rgb(244, 242, 238);
+    color: rgb(12, 12, 12);
+    padding: 0px;
+    text-align: center;
+}
+
+#menu {
+    background-color: #1c1b1b;
+    padding: 20px;
+    text-align: center;
+}
+
+#menu a {
+    color: #cbcbcb;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+#conteudo {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card1 {
+    background-color: rgb(12, 12, 12);
+    padding: 20px;
+    flex: 1;
+    margin: 0;
+    font-family: Arial;
+    color: #f2f2f2;
+}
+
+.card1 h3 {
+    color: white
+}
+
+.card button1 {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.card2 {
+    background-color: rgb(12, 12, 12);
+    padding: 20px;
+    flex: 1;
+    margin: 0;
+    font-family: Arial;
+    color: #f2f2f2;
+}
+
+.card2 h3 {
+    color: white
+}
+
+.card button2 {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.card3 {
+    background-color: rgb(12, 12, 12);
+    padding: 20px;
+    flex: 1;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #f2f2f2;
+}
+
+.card3 h3 {
+    color: white
+}
+
+.card button3 {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilização do Formulário */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgb(98, 99, 98);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#rodape {
+    background-color: rgb(0, 0, 0);
+    color: rgb(236, 234, 234);
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 40px 0;
+}
+
+.tabela-planos {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tabela-planos th, 
+.tabela-planos td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.tabela-planos th {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tabela-planos tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabela-planos tr:hover {
+    background-color: #f1f1f1;
+}
